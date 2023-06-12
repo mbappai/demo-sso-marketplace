@@ -1,8 +1,9 @@
 import { Box,Button, Flex } from "@chakra-ui/react";
 
 export default function Login(){
+    
     function navigateToAuthSite(){
-        location.href = 'http://www.localhost'
+        location.href = 'http://localhost:5174'
     }
 
     return(
